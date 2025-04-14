@@ -6,8 +6,8 @@ A dynamic and clean E-commerce Application built with React and Redux. The app a
 
 ## 🔗 Links
 
--   **GitHub Repository:** https://github.com/yashagrawaltech/online-library-system-assignment
--   **Live Demo:** https://online-library-system-assignment.netlify.app/
+-   **GitHub Repository:** https://github.com/yashagrawaltech/shoppy-globe
+-   **Live Demo:** https://shoppy-globe-assignment.netlify.app/
 
 ---
 
@@ -186,19 +186,37 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ## 📁 Installation & Setup
 
+1. **Clone the repository**
+
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/shoppyglobe.git
-
-# Navigate to project folder
-cd shoppyglobe
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
+git clone https://github.com/yashagrawaltech/shoppy-globe.git
+cd shoppy-globe
 ```
+
+2. **Install dependencies**
+
+```bash
+# Use any of the following based on your package manager
+bun install
+# or
+npm install
+# or
+yarn install
+```
+
+3. **Run the development server**
+
+```bash
+bun dev
+# or
+npm run dev
+# or
+yarn dev
+```
+
+4. **Open in browser**
+
+Visit the local development URL (usually `http://localhost:5173`) shown in the terminal.
 
 ---
 
