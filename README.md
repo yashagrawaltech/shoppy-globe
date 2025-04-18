@@ -110,9 +110,9 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 1. Component Structure (20 marks)
 
-- App, Header, ProductList, ProductItem
-- ProductDetail, Cart, CartItem, NotFound
-- Components are functional and reusable
+- App, Header, ProductList, ProductItem ✅
+- ProductDetail, Cart, CartItem, NotFound ✅
+- Components are functional and reusable ✅
 
 ---
 
@@ -125,10 +125,10 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 3. Data Fetching with useEffect (40 marks)
 
-- Fetch product list from `https://dummyjson.com/products`
-- Custom hook used for fetching product data
-- ProductDetail fetches data based on route param
-- Error handling implemented
+- Fetch product list from `https://dummyjson.com/products` ✅
+- Custom hook used for fetching product data ✅
+- ProductDetail fetches data based on route param ✅
+- Error handling implemented ✅
 
 ---
 
@@ -150,9 +150,9 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 6. React Routing (20 marks)
 
-- React Router used for navigation
-- Routes: Home, Product Detail, Cart, Checkout
-- Dynamic route for product details
+- React Router used for navigation ✅
+- Routes: Home, Product Detail, Cart, Checkout ✅
+- Dynamic route for product details ✅
 
 ---
 
@@ -180,7 +180,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 - Application runs without errors
 - Code is properly indented and commented
-- GitHub repo submitted
+- GitHub repo submitted ✅
 
 ---
 
@@ -226,4 +226,4 @@ Visit the local development URL (usually `http://localhost:5173`) shown in the t
 - Redux Toolkit
 - React Router DOM
 - JavaScript (ES6+)
-- CSS
+- Tailwind
