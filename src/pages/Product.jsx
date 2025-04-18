@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useFetch } from '../hooks/useFetch';
 import LoadingSpinner from '../components/LoadingSpinner';
 import ErrorComponent from '../components/ErrorComponent';
+import AddButton from '../components/AddButton';
 
 const Product = () => {
     const { id } = useParams();
@@ -47,17 +48,7 @@ const Product = () => {
                             <p className="text-sm -mt-4">
                                 {data.shippingInformation}
                             </p>
-                            <div className="add-to-cart hover:bg-gray-200 bg-yellow-500 text-shadow-zinc-950 cursor-pointer flex items-center justify-center gap-2 p-4 text-base rounded-lg transition-all duration-300 ease-in-out">
-                                <svg
-                                    className="w-6 h-6"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="currentColor"
-                                >
-                                    <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
-                                </svg>{' '}
-                                Add to cart
-                            </div>
+                            <AddButton data={data} />
                         </div>
                     </div>
                     <div className="flex flex-col items-start justify-start gap-4 w-full">

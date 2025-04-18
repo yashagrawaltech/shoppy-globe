@@ -118,7 +118,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 2. Props (10 marks)
 
-- Proper use of props to pass data
+- Proper use of props to pass data ✅
 - Prop types used for validation
 
 ---
@@ -134,17 +134,17 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 4. State Management (70 marks)
 
-- Redux used to manage cart state
-- Created actions, reducers, selectors
-- Implemented search to filter products
+- Redux used to manage cart state ✅
+- Created actions, reducers, selectors ✅
+- Implemented search to filter products ✅
 
 ---
 
 ### 5. Event Handling (20 marks)
 
-- "Add to Cart" button in each ProductItem
+- "Add to Cart" button in each ProductItem ✅
 - "Remove" button in each CartItem
-- Handled through Redux properly
+- Handled through Redux properly ✅
 
 ---
 
@@ -158,7 +158,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 7. React Lists (10 marks)
 
-- Products rendered with unique keys
+- Products rendered with unique keys ✅
 - Cart items rendered with unique keys
 
 ---
@@ -171,7 +171,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 9. Styling (20 marks)
 
-- CSS applied for styling
+- CSS applied for styling ✅
 - Fully responsive design
 
 ---

@@ -5,6 +5,7 @@ import NotFound from './components/NotFound';
 import Product from './pages/Product';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
+import Search from './pages/Search';
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
             {
                 path: '/cart',
                 element: <Cart />,
+            },
+            {
+                path: '/search/:search',
+                element: <Search />,
             },
             {
                 path: '/checkout',

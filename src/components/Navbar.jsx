@@ -1,16 +1,27 @@
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
-    const [cartItemCount, setCartItemCount] = useState('');
+    const [cartItemCount, setCartItemCount] = useState(0);
+    const [searchInput, setSearchInput] = useState('');
 
     const cart = useSelector((state) => state.items);
+    const navigate = useNavigate();
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        if (!searchInput) return;
+
+        navigate(`/search/${searchInput}`);
+    };
 
     useEffect(() => {
         // console.log(cart)
         if (cart.length) {
             setCartItemCount(cart.length.toString());
+        } else {
+            setCartItemCount(0);
         }
     }, [cart]);
 
@@ -21,10 +32,13 @@ const Navbar = () => {
             </Link>
             <nav className="flex items-center justify-end gap-4 ml-auto">
                 <form
+                    onSubmit={handleSearch}
                     className="p-2 pl-4 flex items-center gap-4 bg-gray-100 rounded-full"
                     action=""
                 >
                     <input
+                        value={searchInput}
+                        onChange={(e) => setSearchInput(e.currentTarget.value)}
                         className="w-56 outline-none"
                         placeholder="search products"
                     />
