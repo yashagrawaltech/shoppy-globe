@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 56C8 56 112 104 256 104C400 104 504 56 504 56C504 56 480 152 480 280C480 408 504 480 504 480H8C8 480 32 408 32 280C32 152 8 56 8 56Z" fill="#FFCC54" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 56C8 56 112 104 256 104C400 104 504 56 504 56C504 56 400 16 256 16C112 16 8 56 8 56Z" fill="#E6F0FA" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M504 448H8V480H504V448Z" fill="#A76D3F" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M504 432H8V448H504V432Z" fill="#D8AA71" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144 176C144 176 192 304 256 304C320 304 368 176 368 176" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144 200C157.255 200 168 189.255 168 176C168 162.745 157.255 152 144 152C130.745 152 120 162.745 120 176C120 189.255 130.745 200 144 200Z" fill="#E6F0FA" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368 200C381.255 200 392 189.255 392 176C392 162.745 381.255 152 368 152C354.745 152 344 162.745 344 176C344 189.255 354.745 200 368 200Z" fill="#E6F0FA" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144 184C148.418 184 152 180.418 152 176C152 171.582 148.418 168 144 168C139.582 168 136 171.582 136 176C136 180.418 139.582 184 144 184Z" fill="#2D3E50" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368 184C372.418 184 376 180.418 376 176C376 171.582 372.418 168 368 168C363.582 168 360 171.582 360 176C360 180.418 363.582 184 368 184Z" fill="#2D3E50" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56 144C60 176 62 216 62 264" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M456 144C452 176 450 216 450 264" stroke="#2D3E50" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

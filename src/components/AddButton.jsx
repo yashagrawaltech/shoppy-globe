@@ -19,7 +19,7 @@ const AddButton = ({ data }) => {
     return (
         <>
             {count ? (
-                <div className="w-full flex items-center justify-between">
+                <div className="w-full flex items-center justify-between rounded-md border border-zinc-500 shadow-md p-4">
                     <div
                         onClick={() => dispatch(add(data))}
                         className="p-2 bg-yellow-500 rounded-lg items-center justify-center flex"
