@@ -151,7 +151,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 ### 6. React Routing (20 marks)
 
 - React Router used for navigation ✅
-- Routes: Home, Product Detail, Cart, Checkout
+- Routes: Home, Product Detail, Cart, Checkout ✅
 - Dynamic route for product details ✅
 
 ---
@@ -165,7 +165,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 
 ### 8. Performance Optimization (20 marks)
 
-- Code splitting using `React.lazy` and `Suspense`
+- Code splitting using `React.lazy` and `Suspense` ✅
 
 ---
 
@@ -179,7 +179,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 ### 📤 Submission (20 marks)
 
 - Application runs without errors ✅
-- Code is properly indented and commented
+- Code is properly indented and commented ✅
 - GitHub repo submitted ✅
 
 ---

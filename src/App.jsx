@@ -2,10 +2,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomeLayout from './layouts/HomeLayout';
 import Home from './pages/Home';
 import NotFound from './components/NotFound';
-import Product from './pages/Product';
-import Cart from './pages/Cart';
-import Checkout from './pages/Checkout';
-import Search from './pages/Search';
+import { lazy, Suspense } from 'react';
+
+const Checkout = lazy(() => import('./pages/Checkout'));
+const Search = lazy(() => import('./pages/Search'));
+const Cart = lazy(() => import('./pages/Cart'));
+const Product = lazy(() => import('./pages/Product'));
 
 const router = createBrowserRouter([
     {
@@ -18,19 +20,35 @@ const router = createBrowserRouter([
             },
             {
                 path: '/cart',
-                element: <Cart />,
+                element: (
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <Cart />
+                    </Suspense>
+                ),
             },
             {
                 path: '/search/:search',
-                element: <Search />,
+                element: (
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <Search />
+                    </Suspense>
+                ),
             },
             {
                 path: '/checkout',
-                element: <Checkout />,
+                element: (
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <Checkout />
+                    </Suspense>
+                ),
             },
             {
                 path: '/product/:id',
-                element: <Product />,
+                element: (
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <Product />
+                    </Suspense>
+                ),
             },
         ],
         errorElement: <NotFound />,
