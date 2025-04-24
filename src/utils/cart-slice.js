@@ -24,6 +24,10 @@ const addToCart = (state, action) => {
     }
 };
 
+const clearCart = (state) => {
+    state.items = [];
+};
+
 const removeFromCart = (state, action) => {
     // console.log(state.items);
     const objIndex = state.items.findIndex((i) => i.item.id === action.payload);
@@ -50,9 +54,10 @@ const cartSlice = createSlice({
     reducers: {
         add: addToCart,
         remove: removeFromCart,
+        clear: clearCart,
     },
 });
 
-export const { add, remove } = cartSlice.actions;
+export const { add, remove, clear } = cartSlice.actions;
 
 export default cartSlice.reducer;

@@ -143,7 +143,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 ### 5. Event Handling (20 marks)
 
 - "Add to Cart" button in each ProductItem ✅
-- "Remove" button in each CartItem
+- "Remove" button in each CartItem ✅
 - Handled through Redux properly ✅
 
 ---
@@ -151,7 +151,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 ### 6. React Routing (20 marks)
 
 - React Router used for navigation ✅
-- Routes: Home, Product Detail, Cart, Checkout ✅
+- Routes: Home, Product Detail, Cart, Checkout
 - Dynamic route for product details ✅
 
 ---
@@ -159,7 +159,7 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 ### 7. React Lists (10 marks)
 
 - Products rendered with unique keys ✅
-- Cart items rendered with unique keys
+- Cart items rendered with unique keys ✅
 
 ---
 
@@ -172,13 +172,13 @@ To build a fully functional e-commerce platform named **ShoppyGlobe** that inclu
 ### 9. Styling (20 marks)
 
 - CSS applied for styling ✅
-- Fully responsive design
+- Fully responsive design ✅
 
 ---
 
 ### 📤 Submission (20 marks)
 
-- Application runs without errors
+- Application runs without errors ✅
 - Code is properly indented and commented
 - GitHub repo submitted ✅
 

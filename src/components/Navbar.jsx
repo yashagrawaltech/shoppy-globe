@@ -26,20 +26,20 @@ const Navbar = () => {
     }, [cart]);
 
     return (
-        <div className="w-full h-16 bg-blend-color-burn backdrop-blur-sm bg-zinc-400/80 rounded-2xl flex items-center justify-baseline p-4">
+        <div className="w-full sm:h-16 flex-wrap sm:flex-nowrap gap-4 bg-blend-color-burn backdrop-blur-sm bg-zinc-400/80 rounded-2xl flex items-center justify-baseline p-4">
             <Link to={'/'}>
                 <img className="h-8 fill-zinc-950" src="/logo.png" alt="logo" />
             </Link>
-            <nav className="flex items-center justify-end gap-4 ml-auto">
+            <nav className="flex items-center sm:w-fit w-full justify-end gap-4 ml-auto">
                 <form
                     onSubmit={handleSearch}
-                    className="p-2 pl-4 flex items-center gap-4 bg-gray-100 rounded-full"
+                    className="p-2 pl-4 w-full sm:w-fit flex items-center gap-4 bg-gray-100 rounded-full"
                     action=""
                 >
                     <input
                         value={searchInput}
                         onChange={(e) => setSearchInput(e.currentTarget.value)}
-                        className="w-56 outline-none"
+                        className="sm:max-w-56 w-full outline-none"
                         placeholder="search products"
                     />
                     <button
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </form>
                 <Link
                     to={'/cart'}
-                    className="bg-gray-950 cursor-pointer group hover:bg-yellow-400 transition-all duration-300 ease-in-out flex items-center justify-center p-2 rounded-full relative"
+                    className="bg-gray-950 absolute right-4 top-3 cursor-pointer group hover:bg-yellow-400 transition-all duration-300 ease-in-out flex items-center justify-center p-2 rounded-full sm:relative sm:right-auto sm:top-auto"
                 >
                     {cartItemCount ? (
                         <span className="w-6 h-6 text-sm bg-yellow-500 rounded-full -bottom-1 right-0 absolute text-center border-2 border-gray-100 overflow-hidden">
